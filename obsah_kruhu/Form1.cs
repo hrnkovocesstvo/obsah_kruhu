@@ -28,7 +28,7 @@ namespace obsah_kruhu
                 double obvod = Math.Round(2 * Math.PI * polomer, 5, MidpointRounding.AwayFromZero);
                 double obsahspravne = Math.Round(Math.PI * Math.Pow(polomer, 2), 5, MidpointRounding.AwayFromZero);
 
-                string outtextobsah = $"Obsah: {obsahspravne} {textInJednotky.Text}";
+                string outtextobsah = $"Obsah: {obsahspravne}² {textInJednotky.Text}";
                 string outtextobvod = $"Obvod: {obvod} {textInJednotky.Text}";
 
                 textOut.Text = outtextobsah;
